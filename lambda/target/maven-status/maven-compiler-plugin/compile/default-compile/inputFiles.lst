@@ -1,0 +1,9 @@
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/config/WeeklyReportJob.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/dto/WeeklyReportDTO.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/entity/Urgency.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/entity/WeeklyReport.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/lambda/WeeklyReportHandler.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/repository/WeeklyReportRepository.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/service/EmailTemplateService.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/service/NotificationService.java
+/home/analab/Documentos/fiap/tech-challenges/unidade 4/infra-weekly-report/infra_event_sns/lambda/src/main/java/org/acme/service/WeeklyReportService.java

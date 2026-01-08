@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sns:Publish",
+        "sns:GetSubscriptionAttributes",
+        "sns:ListSubscriptions",
+        "sns:ListSubscriptionsByTopic",
+        "sns:GetTopicAttributes"
+      ],
+      "Resource": "arn:aws:sns:us-east-1:757367947438:relatorio_feedbacks-sns"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:Query"],
+      "Resource": [
+        "arn:aws:dynamodb:us-east-1:757367947438:table/items",
+        "arn:aws:dynamodb:us-east-1:757367947438:table/items/index/created_at-index"
+      ]
+    }
+  ]
+}
+
+
+

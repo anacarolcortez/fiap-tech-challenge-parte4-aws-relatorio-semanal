@@ -1,0 +1,9 @@
+org/acme/dto/WeeklyReportDTO.class
+org/acme/entity/Urgency.class
+org/acme/service/WeeklyReportService.class
+org/acme/lambda/WeeklyReportHandler.class
+org/acme/service/NotificationService.class
+org/acme/service/EmailTemplateService.class
+org/acme/repository/WeeklyReportRepository.class
+org/acme/entity/WeeklyReport.class
+org/acme/lambda/WeeklyReportJob.class
