@@ -16,7 +16,7 @@ jobs:
     env:
       AWS_REGION: us-east-1
       AWS_ACCOUNT_ID: 757367947438
-      TF_ACTION: apply # Altere para "apply" ou "destroy"
+      TF_ACTION: destroy # Altere para "apply" ou "destroy"
       ROLE_NAME: lambda-relatorio-role
       SNS_NAME: relatorio_feedbacks-sns
       RESOURCE_NAME: event_relatorio_sns
