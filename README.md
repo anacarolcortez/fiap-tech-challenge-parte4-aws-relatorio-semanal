@@ -97,8 +97,18 @@ Exemplo:
 resource "aws_sns_topic_subscription" "feedback_email" {
 topic_arn = aws_sns_topic.relatorio_feedbacks.arn
 protocol  = "email"
-endpoint  = "janainafrv@hotmail.com"  # endereço que vai receber as mensagens
+endpoint  = "email@email.com"  # endereço que vai receber as mensagens
 }
+```
+Na pipeline do GitHub Actions, existe uma etapa responsável por verificar a existência da subscription do SNS antes de destruir a infraestrutura.
+Para isso, o mesmo endereço de e-mail configurado no Terraform deve ser informado como ENDPOINT.
+```
+# Verificar SNS Subscription
+      - name: Verificar SNS Subscription
+        id: get_sns_subscription
+        run: |
+          TOPIC_ARN="arn:aws:sns:${AWS_REGION}:${AWS_ACCOUNT_ID}:${SNS_NAME}"
+          ENDPOINT="email@email.com"
 ```
 
 ***⚠️ Importante:***
